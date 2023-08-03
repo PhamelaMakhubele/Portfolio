@@ -1,0 +1,79 @@
+.Contact__Section{
+    background-color: var(--primary-color);
+    padding-top: var(--section-padding-top);
+    height:var(--section-height);
+    height: fit-content;
+    padding-bottom: var(--section-padding-bottom);
+}
+.Contact__Container{
+    padding-left: var(--section-padding-left);
+    padding-right: var(--section-padding-right);
+    padding-top: var(--section-padding-top);
+    display: flex;
+
+}
+.Contact__Icons .fa-solid {
+    display: flex;
+    color: white;
+    background: local;
+    border: 4px solid var(--secondary-color);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    
+}
+.contact__Labels {
+    display: block;
+    margin-top: 0px;
+    padding-left: 50px;
+    
+}
+.labels{
+    color: white;
+    margin-bottom: 30px;
+   
+}
+.fa-solid{
+    
+    display: block;
+    
+}
+form{
+    display: block;
+    margin-left: 110px;
+    
+   
+}
+.Contact__Input{
+    display: flex;
+}
+input {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    background: local;
+    padding-left: 10px;
+    margin-right: 27px;
+       
+    
+}
+input:active, input:hover,textarea:hover{
+    border: 2px solid var(--secondary-color);
+
+}
+
+textarea{
+    background: local;
+    border: 1px solid white ;
+    padding: 10px;
+
+}
+form .CTA{
+    width: 250px;
+    height: 60px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+}

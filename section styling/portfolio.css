@@ -1,0 +1,116 @@
+.Projects__Section{
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-top: var(--section-padding-top);
+    height:calc(var(--section-height) + 200px)  ;
+    display: flexbox;
+    
+
+}
+.Projects__Links {
+   
+    padding-top: var(--section-padding-top);
+    display: none;
+    
+    
+   
+
+}
+.Projects__Links ul,li,a{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.Portfolio__Articles{
+   
+    padding-top: var(--section-padding-top);
+    display: flex;
+    height:520px;
+}
+.Article__Container{
+    /*padding-left:var(--section-padding-left);*/
+    padding-left: 80px;
+    display: flex;
+}
+
+.Portfolio__Message{
+padding-top: var(--section-padding-top);
+/*padding-left: var(--section-padding-left);*/
+    display: flex; 
+    
+}
+marquee.Message{
+   
+    text-align: left;
+    opacity: 0.5;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: none;
+    /*box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);*/
+    animation: slide-left 60s ease forwards infinite;
+   color: white;
+   margin-bottom: 50px;
+   
+}
+
+
+.Portfolio__Article{
+    
+    width: 400px;
+    height: 400px;
+    border: none;
+    background-color:var(--forth-color);
+    border-radius: 20px;
+    margin-right: 80px;
+    transform: rotate(0deg);
+    
+    
+}
+.Portfolio__Article a{
+    
+    color: var(--secondary-color);
+}
+.Portfolio__Article i{
+    display: none;
+}
+a .fa-magnifying-glass{
+   align-items: center;
+   justify-content: center;
+   
+    
+}
+ 
+
+.Portfolio__Article:hover{
+    
+    background-color:white;
+    
+    
+}
+
+
+.Portfolio__Image{
+    width: 300px;
+    height: 200px;
+    transform: rotate(0deg);
+    margin: 80px;
+    align-items: flex-start;
+    
+
+}
+.n1{
+    background-image: var(--portfolio-backimage);
+}
+.n2{
+    background-image: url(Assets/drone1-removebg-preview.png);
+    margin-top: var(--section-padding-top);
+    margin-bottom:20px ;
+}
+.contain{
+    padding-top: 0;
+}
+.n4{
+    background-image: url(Assets/surveyimage-removebg-preview.png);
+    margin-top: 80px;
+}

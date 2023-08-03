@@ -1,0 +1,29 @@
+footer{
+    background:var(--forth-color);
+    padding-top: var(--section-padding-top);
+    display: flexbox;
+    height: 80px;
+   
+}
+.Footer__Nav{
+    padding-left: var(--section-padding-left);
+    padding-right: var(--section-padding-right);
+    display: flex;
+}
+.Footer__Icons{
+   margin-left: 400px;
+}
+.fa-brands{
+    margin-left: 30px;
+}
+.Footer__Icons .fa-facebook-f, .fa-twitter, .fa-dribbble, .fa-pinterest-p{
+   
+    color: white;
+}
+.fa-instagram{
+    color: var(--secondary-color);
+}
+.fa-brands:hover{
+    cursor: pointer;
+    color: var(--secondary-color);
+}

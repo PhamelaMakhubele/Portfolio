@@ -1,0 +1,35 @@
+.Freelance__Section{
+    width: 100%;
+    background-image: var(--freelance-backimage);
+    background-color: black;
+    background-blend-mode: darken;
+    background-blend-mode: luminosity;
+    
+    height: 200px;
+    display: flex;
+}
+.Freelance__Text{
+    padding-top: var(--section-padding-top);
+    padding-left: var(--section-padding-left);
+    padding-right: var(--section-padding-right);
+    margin-left: 90px;
+}
+.Freelance__Text h1{
+    color: var(--secondary-color);
+}
+.Freelance__Text p{
+    color: black;
+    font-size: 16px;
+}
+.Freelance__Section button{
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    margin-top: 70px;
+    margin-left: 200px;
+    color: white;
+    font-size: 20px;
+
+}
