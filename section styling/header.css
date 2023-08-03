@@ -1,0 +1,113 @@
+.Header__Section{
+    background-color: var(--forth-color);
+    background-image: var(--header-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    width: 100%;
+    height: var(--section-height);
+    display: flexbox;  
+}
+
+.Header__Class{
+    display: flexbox;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+
+}
+.Header__Logo{
+    width: 100%;
+    max-width: 100px;
+    height: 60px;
+    padding-left: 70px;
+    color:white;
+    font-size: 2vw;
+    font-weight: bold;
+    -webkit-text-stroke: 0.2vw var(--secondary-color);
+    text-transform: capitalize;
+    opacity: 0.7;
+}
+.Header__Nav{
+    
+    float: right;
+
+  
+}
+.Header__Body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+.Header__Message{
+    
+    padding-top: 200px;
+    padding-left: var(--section-padding-left);
+    
+}
+.Typewriter{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.Header__Paragraph{
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    line-break: auto;
+    text-align: start;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid var(--secondary-color); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 3.5s steps(100, end) infinite,blink-caret .75s step-end infinite;
+
+}
+
+.Typewriter {
+    
+    white-space: normal;
+    overflow: hidden;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    
+  }
+ 
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--secondary-color); }
+  }
+
+.Header__Name{
+    color:var(--secondary-color);
+    font-size: 35px;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.1vw var(--secondary-color);
+ 
+    
+}
+.Image{
+    padding-top: 100px;
+    margin-left: 70px;
+    width: 100%;
+
+    
+}
+.Header__Image{
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+}
