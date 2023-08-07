@@ -21,7 +21,6 @@
     --secondary-color:#f95959;
     --tertiary-color:white;
     --forth-color:rgb(41, 39, 39);
-  
     --section-width: 100%;
     --section-height:750px;
     --container-width: 100%;
@@ -29,6 +28,7 @@
     --section-padding-left:200px;
     --section-padding-right: 200px;
     --section-padding-bottom: 70px;
+    /*--header-image:url(Assets/backgroundImage.jpg);*/
   
    
 }
