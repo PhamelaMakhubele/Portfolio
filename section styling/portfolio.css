@@ -1,8 +1,11 @@
+
+/*******************************PORTFOLIO*********************************************/
+
 .Projects__Section{
     width: 100%;
-    background-color: var(--primary-color);
+    background-color:  var(--forth-color);
     padding-top: var(--section-padding-top);
-    height:calc(var(--section-height) + 200px)  ;
+    height:calc(var(--section-height) + 300px)  ;
     display: flexbox;
     
 
@@ -58,12 +61,13 @@ marquee.Message{
 .Portfolio__Article{
     
     width: 400px;
-    height: 400px;
+    height: 450px;
     border: none;
-    background-color:var(--forth-color);
-    border-radius: 20px;
+    background-color:var(--primary-color);
+    /*border-radius: 20px;*/
     margin-right: 80px;
     transform: rotate(0deg);
+    transition: transform 0.5s;
     
     
 }
@@ -72,21 +76,28 @@ marquee.Message{
     color: var(--secondary-color);
 }
 .Portfolio__Article i{
-    display: none;
-}
-a .fa-magnifying-glass{
-   align-items: center;
-   justify-content: center;
    
+    background: white;
     
 }
- 
 
-.Portfolio__Article:hover{
+.layer{
     
-    background-color:white;
-    
-    
+    height: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    padding: 0 40px;
+    overflow: hidden;
+    background: linear-gradient(rgba(0,0,0,0.6), #f95959);
+    align-items: center;
+    transition: height 0.7s;
+}
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 150px;
 }
 
 
@@ -101,6 +112,13 @@ a .fa-magnifying-glass{
 }
 .n1{
     background-image: var(--portfolio-backimage);
+    
+}
+.Portfolio__Article .n1, .n2, .n4{
+    transform: scale(1.1);
+}
+.Portfolio__Article:hover .layer{
+    height: 100%;
 }
 .n2{
     background-image: url(Assets/drone1-removebg-preview.png);
@@ -110,7 +128,22 @@ a .fa-magnifying-glass{
 .contain{
     padding-top: 0;
 }
-.n4{
+.Portfolio__Article.n4{
     background-image: url(Assets/surveyimage-removebg-preview.png);
-    margin-top: 80px;
+    margin-top: 200px;
+    width: 400px;
+    margin-left: 20px;
 }
+
+.fa-github{
+    width: 60px;
+    height: 40px;
+    border-radius:50% ;
+    padding-top: 20px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:var(--secondary-color); 
+
+}
+

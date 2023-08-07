@@ -115,3 +115,127 @@
     height: 6px;
     background-color:black;
   }
+
+
+
+  /****************************************************/
+
+  .Skills__Section{
+    background-color:var(--primary-color) ;
+    width: 100%;
+    height: var(--section-height);
+    padding-top: var(--section-padding-top);
+    display: flexbox;
+    padding-bottom: 50px;
+}
+.Skills{
+    display: flex;
+    padding-left: var(--section-padding-left);
+    padding-right: var(--section-padding-right);
+    text-align: left;
+   
+}
+.Skills .About__Heading{
+    text-align: left;
+    margin: 30px;
+    margin-bottom: 0;
+}
+.Soft__Skills{
+    transform: rotate(10deg);
+    margin-right: 180px;
+    width: 500px;
+    height: 550px;
+    border: 1px solid var(--forth-color);
+    background-color:var(--forth-color);
+}
+.Coding__Skills{
+    transform: rotate(10deg);
+    width: 500px;
+    height: 550px;
+    border: 1px solid var(--forth-color);
+    background-color: var(--forth-color);
+    
+}
+.Skills .About__Lines{
+    
+    align-items: start;
+    margin-left: 30px;
+    height: 2px;
+    margin-bottom: 3px;
+}
+.Skills .About__Line{
+    align-items: start;
+    margin-left: 30px;
+    height: 2px;
+    width: 60px;
+    
+  
+    
+    
+}
+.Skills .About__Heading{
+    font-weight: 100;
+    font-size: 25px;
+}
+.Skills .About__Paragraph{
+    text-align: left;
+    margin-bottom: 30px;
+    
+}
+.MySkills{
+    margin: 30px;
+
+}
+ .Skills__Name{
+   
+   color: var(--secondary-color);
+}
+.MySkills p{
+    color: white;
+}
+.Skills__Percentage{
+    width: 400px;
+    height: 6px;
+    border: none;
+    background-color:#e3e3e3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.Percent{
+    
+    float: right;
+}.Skills__Percentage1{
+    width: 10%;
+    float: right;
+    height: 6px;
+    background-color: black
+    
+
+
+    
+}
+.Skills__Percentage2{
+    width: 20%;
+    float: right;
+    height: 6px;
+    background-color:black;
+    
+}
+.Skills__Percentage3{
+   float: right;
+    width: 40%;
+    height: 6px;
+    background-color:black;
+    border: none;
+}
+
+  .Skills__Percentage4{
+    width: 30%;
+    float: right;
+    height: 6px;
+    background-color:black;
+  }
