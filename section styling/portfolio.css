@@ -111,7 +111,7 @@ marquee.Message{
 
 }
 .n1{
-    background-image: url(/Assets/perf-removebg-preview.png);
+    background-image: url(./Assets/perf-removebg-preview.png);
     
 }
 .Portfolio__Article .n1, .n2, .n4{
@@ -121,7 +121,7 @@ marquee.Message{
     height: 100%;
 }
 .n2{
-    background-image: url(/Assets/drone1-removebg-preview.png);
+    background-image: url(../Assets/drone1-removebg-preview.png);
     margin-top: var(--section-padding-top);
     margin-bottom:20px ;
 
@@ -130,7 +130,7 @@ marquee.Message{
     padding-top: 0;
 }
 .Portfolio__Article.n4{
-    background-image: url(/Assets/surveyimage-removebg-preview.png);
+    background-image: url(../Assets/surveyimage-removebg-preview.png);
     margin-top: 200px;
     width: 400px;
     margin-left: 20px;

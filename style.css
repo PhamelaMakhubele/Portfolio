@@ -29,8 +29,8 @@
     --section-padding-left:200px;
     --section-padding-right: 200px;
     --section-padding-bottom: 70px;
-    --freelance-backimage: url(Assets/shapes.jpg);
-    --portfolio-backimage:url(Assets/perf-removebg-preview.png);
+    /*--freelance-backimage: url(Assets/shapes.jpg);
+    --portfolio-backimage:url(Assets/perf-removebg-preview.png);*/
 }
 *{
     margin: 0;
@@ -60,27 +60,6 @@ section{
    
 }
 
-.Header__Section{
-    background-color: var(--forth-color);
-    background-image: url(Assets/backgroundImage.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-blend-mode: luminosity;
-    width: 100%;
-    height: var(--section-height);
-    display: flexbox;  
-}
-
-.Freelance__Section{
-    width: 100%;
-    background-image: var(--freelance-backimage);
-    background-color: black;
-    background-blend-mode: darken;
-    background-blend-mode: luminosity;
-    height: 200px;
-    display: flex;
-}
 
 
 .About__Shapes{
