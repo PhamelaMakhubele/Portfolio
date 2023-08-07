@@ -115,7 +115,7 @@ marquee.Message{
     
 }
 .Portfolio__Article .n1, .n2, .n4{
-    transform: scale(1.1);
+    transform: scale(1.1.1);
 }
 .Portfolio__Article:hover .layer{
     height: 100%;
