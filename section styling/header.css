@@ -1,5 +1,5 @@
 :root{
-    --header-image:url(Assets/backgroundImage.jpg);
+    --header-image:url(/Assets/backgroundImage.jpg);
 }
 
 .Header__Section{
