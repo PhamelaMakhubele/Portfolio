@@ -1,11 +1,6 @@
 
 /*******************************PORTFOLIO*********************************************/
 
-:root{
-    --portfolio-backimage:url(/Assets/perf-removebg-preview.png);
-    
-}
-
 .Projects__Section{
     width: 100%;
     background-color:  var(--forth-color);
@@ -116,7 +111,7 @@ marquee.Message{
 
 }
 .n1{
-    background-image: var(--portfolio-backimage);
+    background-image: url(/Assets/perf-removebg-preview.png);
     
 }
 .Portfolio__Article .n1, .n2, .n4{
