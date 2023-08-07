@@ -1,15 +1,6 @@
 
 
-.Freelance__Section{
-    width: 100%;
-    background-image: url(/Assets/shapes.jpg);
-    background-color: black;
-    background-blend-mode: darken;
-    background-blend-mode: luminosity;
-    
-    height: 200px;
-    display: flex;
-}
+
 .Freelance__Text{
     padding-top: var(--section-padding-top);
     padding-left: var(--section-padding-left);
