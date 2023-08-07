@@ -1,6 +1,10 @@
 
 /*******************************PORTFOLIO*********************************************/
 
+:root{
+    --portfolio-backimage:url(Assets/perf-removebg-preview.png);
+}
+
 .Projects__Section{
     width: 100%;
     background-color:  var(--forth-color);
@@ -121,9 +125,10 @@ marquee.Message{
     height: 100%;
 }
 .n2{
-    background-image: url(Assets/drone1-removebg-preview.png);
+    background-image: url(/Assets/drone1-removebg-preview.png);
     margin-top: var(--section-padding-top);
     margin-bottom:20px ;
+
 }
 .contain{
     padding-top: 0;

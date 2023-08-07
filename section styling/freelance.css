@@ -1,3 +1,7 @@
+:root{
+    --freelance-backimage: url(Assets/shapes.jpg);
+}
+
 .Freelance__Section{
     width: 100%;
     background-image: var(--freelance-backimage);
