@@ -21,6 +21,7 @@
     --secondary-color:#f95959;
     --tertiary-color:white;
     --forth-color:rgb(41, 39, 39);
+    /*--header-image:url(Assets/backgroundImage.jpg);*/
     --section-width: 100%;
     --section-height:750px;
     --container-width: 100%;
@@ -28,9 +29,8 @@
     --section-padding-left:200px;
     --section-padding-right: 200px;
     --section-padding-bottom: 70px;
-    /*--header-image:url(Assets/backgroundImage.jpg);*/
-  
-   
+    /*--freelance-backimage: url(Assets/shapes.jpg);
+    --portfolio-backimage:url(Assets/perf-removebg-preview.png);*/
 }
 *{
     margin: 0;

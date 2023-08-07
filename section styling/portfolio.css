@@ -2,7 +2,7 @@
 /*******************************PORTFOLIO*********************************************/
 
 :root{
-    --portfolio-backimage:url('Assets/perf-removebg-preview.png');
+    --portfolio-backimage:url(/Assets/perf-removebg-preview.png);
     
 }
 
@@ -126,7 +126,7 @@ marquee.Message{
     height: 100%;
 }
 .n2{
-    background-image: url('Assets/drone1-removebg-preview.png');
+    background-image: url(/Assets/drone1-removebg-preview.png);
     margin-top: var(--section-padding-top);
     margin-bottom:20px ;
 
@@ -135,7 +135,7 @@ marquee.Message{
     padding-top: 0;
 }
 .Portfolio__Article.n4{
-    background-image: url('Assets/surveyimage-removebg-preview.png');
+    background-image: url(/Assets/surveyimage-removebg-preview.png);
     margin-top: 200px;
     width: 400px;
     margin-left: 20px;
